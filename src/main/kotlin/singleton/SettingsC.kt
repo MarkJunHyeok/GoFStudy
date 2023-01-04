@@ -1,6 +1,8 @@
 package singleton
 
-class SettingsC private constructor() {
+import java.io.Serializable
+
+class SettingsC private constructor() : Serializable {
 
 
     companion object {
