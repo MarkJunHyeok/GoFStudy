@@ -1,0 +1,3 @@
+package abstractfactory
+
+interface Wheel
